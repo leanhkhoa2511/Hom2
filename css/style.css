@@ -1,0 +1,71 @@
+
+
+@media (min-width: 1200px) {
+    .container {
+    max-width: 1640px;
+}
+
+}
+
+body {
+    background-color:gray; 
+#dfdbe5;
+}
+.aboutme {
+    background-color: #fff;
+   
+}
+.information {
+    background-color: #fff;
+}
+
+.resume-title {
+    padding-left: 35px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.aboutme__image {
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.information__title,
+.aboutme__title{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #000;
+}
+
+.aboutme__info ul {
+    list-style-type: none;
+    padding: 0;
+}
+.aboutme__info ul li {
+    margin-top: 15px;
+}
+
+.information__content {
+    padding-top: 20px;
+}
+.education__content ul li {
+    margin-bottom: 10px;
+}
+.information__wrapper,
+.aboutme__wrapper{
+    padding: 40px 10px 40px 10px;
+}
+
+
+
+.awards__content ul li{
+    font-weight: bold;
+}
